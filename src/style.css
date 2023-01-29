@@ -1,0 +1,52 @@
+:root {
+  --shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 36px;
+  border: 2px solid black;
+  box-shadow: var(--shadow);
+}
+
+.btn {
+  box-shadow: var(--shadow);
+}
+
+a {
+  margin: 20px;
+}
+
+#homepage-link {
+  position: relative;
+  top: 30px;
+  font-size: 12px;
+  background-color: violet;
+  border: none;
+  padding: 8px 15px;
+}
+#homepage-link:hover {
+  opacity: 0.9;
+}
+
+.paragraph {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.paragraph div {
+  background-color: rgba(255, 177, 255, 0.492);
+  padding: 15px;
+  flex: 1;
+  max-width: 350px;
+  text-align: center;
+}
