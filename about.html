@@ -11,33 +11,73 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" class="style" />
-    <title>Document</title>
+    <title>About Me</title>
   </head>
   <body>
-    <h1>About Me</h1>
-    <h2>Aneta Rybacka</h2>
-    <div class="paragraph">
-      <div>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+      <a class="navbar-brand" href="#">Aneta Rybacka</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div></div>
+    </nav>
+
+    <h1 class="text-center">About me</h1>
+    <h3 class="text-center">Front-end developer</h3>
+    <div class="about-paragraphs text-center">
+      <p class="about-paragraphs text-center">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
         aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
         alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
-        quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
-        voluptatum blanditiis harum.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
-        quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
-        voluptatum blanditiis harum.
-      </div>
+        blanditiis harum.
+      </p>
     </div>
-    <a href=".../index.html" id="homepage-link" class="btn btn-info"
-      >Back to HomePage</a
-    >
+<div class="container">
+  <div class="row">
+      <div class="col-sm-4">
+          <img src="images/Weather-App.png" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-sm-4">
+            <img src="images/World-Clock.png" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-sm-4">
+              <img src="images/Visit-Warsaw.png" class="img-fluid img-thumbnail">
+            </div>
+  </div>
+</div>
+
+    </div>
+    <div id="contact" class="mt-5 text-center">
+      <h2>📮 Contact me</h2>
+      <a href="mailto:an.rybacka@fakeemail.ca" class="email-link"
+        >an.rybacka@fakeemail.com</a
+      >
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
