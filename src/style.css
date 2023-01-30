@@ -21,6 +21,25 @@ h2 {
   box-shadow: var(--shadow);
 }
 
+.miniature {
+  height: 200px;
+  width: 300px;
+}
+
+.project-container {
+  max-width: 1000px;
+  display: block;
+  margin: 40 auto;
+  padding: 20px;
+  border: 1px solid rgba(100, 100, 111, 0.2);
+  box-shadow: var(--shadow);
+}
+
+.project-image {
+  max-width: 400px;
+  margin: 10px;
+}
+
 #homepage-link {
   position: relative;
   top: 30px;
