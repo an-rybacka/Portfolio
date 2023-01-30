@@ -1,5 +1,5 @@
 :root {
-  --shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
 }
 
 body {
@@ -17,12 +17,9 @@ h2 {
   box-shadow: var(--shadow);
 }
 
+
 .btn {
   box-shadow: var(--shadow);
-}
-
-a {
-  margin: 20px;
 }
 
 #homepage-link {
