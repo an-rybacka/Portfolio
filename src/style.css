@@ -1,10 +1,14 @@
 :root {
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+  --primary-color: rgba(238, 227, 235, 0.911);
+  --secondary-color: rgba(171, 130, 158, 0.63);
+  --third-color: rgba(145, 31, 109, 0.951);
 }
 
 body {
-  font-family: sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
+  background-color: var(--primary-color);
 }
 
 h1 {
@@ -19,6 +23,18 @@ h2 {
 
 .btn {
   box-shadow: var(--shadow);
+  background-color: var(--third-color);
+  color: white;
+  border: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 4px;
+
+}
+
+.btn:hover {
+  opacity: 0.8;
+   background-color: var(--third-color);
+  color: white;
 }
 
 .miniature {
@@ -33,6 +49,7 @@ h2 {
   padding: 20px;
   border: 1px solid rgba(100, 100, 111, 0.2);
   box-shadow: var(--shadow);
+  background-color: var(--secondary-color);
 }
 
 .project-image {
